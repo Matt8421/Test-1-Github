@@ -1,82 +1,100 @@
 <!--  -->
 <!DOCTYPE html> <!-- tipo de archivo o documento , una pagina web -->
 <html lang="en"> <!-- lang, lenguaje.Apertura de etiqueta -->
+
+
 <head><!--  La cabecera de la pag web -->
     <meta charset="UTF-8"> <!--  configuracion del lenguaje -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- responsivo adapta la pag web al dispositivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Html</title><!-- Titulo de la ventana del navegador -->
+
+    <style>
+        p{  color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+    </style>
 </head>
+
 <body><!-- Cuerpo de la pag web -->
-    <header> Soy el header de la pagina</header>
+    <header> <h2 class="centrar">Soy el header de la pagina</h2></header>
+        
     <nav> 
-        <h2> Soy la navegacion</h2>
+        <h2 class="Soloyo"> Soy la navegacion</h2>
         <!-- Listas desordenadas -->
-        <ul>
-           <!-- item list -->
-           <li>
-           <!-- Anclas: Permiten la navegacion -->
-           <a href="./index.html">HOME</a>
-           </li>
-           <li>
-           <a href="./pages/sucursales.html">SUCURSALES</a>
-           </li>
-           <li>
-           <a href="./pages/productos.html">PRODUCTOS</a>
-           </li>
+        <ul class="centrar">
+            <!-- item list -->
+            <li>
+            <!-- Anclas: Permiten la navegacion -->
+            <a href="./index.html">HOME</a>
+            </li>
+            <li>
+            <a href="./pages/sucursales.html">SUCURSALES</a>
+            </li>
+            <li>
+            <a href="./pages/productos.html">PRODUCTOS</a>
+            </li>
         
         </ul>
     </nav>
-    <Main><h1>Etiqueta de titulo Nivel 1</h1>
+    <Main><h1 style="color: green; font-size: 45px;"> 
+        
+        
+        Etiqueta de titulo Nivel 1</h1>
+        
         
         <hr>
         
         <section>
-        <article><h3>Los alimentos</h3>
+            <article>
+        <h3>Los alimentos</h3>
         <img src="https://media.tycsports.com/files/2023/03/24/548718/lionel-messi-antonel-roccuzzo_416x234.webp" alt="Imagen de una alimentacion sana">
         
         
         
-        <article> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem autem molestiae architecto, voluptatibus sequi ipsum corporis assumenda obcaecati, cupiditate repudiandae possimus adipisci voluptate quas vero quam, ipsa molestias commodi.</article>
-        <article>Lorem ipsum, dolor sit amet consectetur  adipisicing elit.<strong><i><a href="./pages/productos.html">Formulario</a></i></strong> Error sapiente blanditiis soluta voluptate dolorum repellat doloribus facilis saepe dicta. Harum autem quod animi cum nostrum? Tempora aperiam quaerat dignissimos vero.</article>
-        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum nam quidem atque incidunt dolore magnam earum! Inventore ratione aliquam deserunt vel distinctio hic blanditiis, pariatur maxime. Ipsum, illum nisi.</article>
-        
+        <p id="miParrafo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem autem molestiae architecto, voluptatibus sequi ipsum corporis assumenda obcaecati, cupiditate repudiandae possimus adipisci voluptate quas vero quam, ipsa molestias commodi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur  adipisicing elit.<strong><i><a href="./pages/productos.html">Formulario</a></i></strong> Error sapiente blanditiis soluta voluptate dolorum repellat doloribus facilis saepe dicta. Harum autem quod animi cum nostrum? Tempora aperiam quaerat dignissimos vero.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum nam quidem atque incidunt dolore magnam earum! Inventore ratione aliquam deserunt vel distinctio hic blanditiis, pariatur maxime. Ipsum, illum nisi.</p>
         </article>
-        
-        <article><h3>Los alimentos</h3>
+        <hr>
+        <article class="Soloyo">
+        <h3>Los alimentos</h3>
         <img src="https://media.tycsports.com/files/2023/03/24/548718/lionel-messi-antonel-roccuzzo_416x234.webp" alt="Imagen de una alimentacion sana">
-            
-            
-            
-        <article> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem autem molestiae architecto, voluptatibus sequi ipsum corporis assumenda obcaecati, cupiditate repudiandae possimus adipisci voluptate quas vero quam, ipsa molestias commodi.</article>
-        <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error sapiente blanditiis soluta voluptate dolorum repellat doloribus facilis saepe dicta. Harum autem quod animi cum nostrum? Tempora aperiam quaerat dignissimos vero.</article>
-        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum nam quidem atque incidunt dolore magnam earum! Inventore ratione aliquam deserunt vel distinctio hic blanditiis, pariatur maxime. Ipsum, illum nisi.</article>
-            
-        </article>
         
-        <article><h3>Los alimentos</h3>
+    
+        
+        <p class="centrar Otroparrafo Micolor"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem autem molestiae architecto, voluptatibus sequi ipsum corporis assumenda obcaecati, cupiditate repudiandae possimus adipisci voluptate quas vero quam, ipsa molestias commodi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error sapiente blanditiis soluta voluptate dolorum repellat doloribus facilis saepe dicta. Harum autem quod animi cum nostrum? Tempora aperiam quaerat dignissimos vero.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum nam quidem atque incidunt dolore magnam earum! Inventore ratione aliquam deserunt vel distinctio hic blanditiis, pariatur maxime. Ipsum, illum nisi.</p>
+        <hr>          
+        </article>
+        <article>
+        <h3>Los alimentos</h3>
         <img src="https://media.tycsports.com/files/2023/03/24/548718/lionel-messi-antonel-roccuzzo_416x234.webp" alt="Imagen de una alimentacion sana">
-            
         
-            
-        <article> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem autem molestiae architecto, voluptatibus sequi ipsum corporis assumenda obcaecati, cupiditate repudiandae possimus adipisci voluptate quas vero quam, ipsa molestias commodi.</article>
-        <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error sapiente blanditiis soluta voluptate dolorum repellat doloribus facilis saepe dicta. Harum autem quod animi cum nostrum? Tempora aperiam quaerat dignissimos vero.</article>
-        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum nam quidem atque incidunt dolore magnam earum! Inventore ratione aliquam deserunt vel distinctio hic blanditiis, pariatur maxime. Ipsum, illum nisi.</article>
-            
+        
+        
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem autem molestiae architecto, voluptatibus sequi ipsum corporis assumenda obcaecati, cupiditate repudiandae possimus adipisci voluptate quas vero quam, ipsa molestias commodi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error sapiente blanditiis soluta voluptate dolorum repellat doloribus facilis saepe dicta. Harum autem quod animi cum nostrum? Tempora aperiam quaerat dignissimos vero.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum nam quidem atque incidunt dolore magnam earum! Inventore ratione aliquam deserunt vel distinctio hic blanditiis, pariatur maxime. Ipsum, illum nisi.</p>
+        
         </article>
-         <hr>
-        
+        <hr>
+        <article>
         </section>
         <article><h3>Los alimentos</h3>
         <img src="https://media.tycsports.com/files/2023/03/24/548718/lionel-messi-antonel-roccuzzo_416x234.webp" alt="Imagen de una alimentacion sana">
             
             
             
-         <article> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem autem molestiae architecto, voluptatibus sequi ipsum corporis assumenda obcaecati, cupiditate repudiandae possimus adipisci voluptate quas vero quam, ipsa molestias commodi.</article>
-         <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error sapiente blanditiis soluta voluptate dolorum repellat doloribus facilis saepe dicta. Harum autem quod animi cum nostrum? Tempora aperiam quaerat dignissimos vero.</article>
-         <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum nam quidem atque incidunt dolore magnam earum! Inventore ratione aliquam deserunt vel distinctio hic blanditiis, pariatur maxime. Ipsum, illum nisi.</article>
-            
-         </article>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quidem autem molestiae architecto, voluptatibus sequi ipsum corporis assumenda obcaecati, cupiditate repudiandae possimus adipisci voluptate quas vero quam, ipsa molestias commodi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error sapiente blanditiis soluta voluptate dolorum repellat doloribus facilis saepe dicta. Harum autem quod animi cum nostrum? Tempora aperiam quaerat dignissimos vero.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum nam quidem atque incidunt dolore magnam earum! Inventore ratione aliquam deserunt vel distinctio hic blanditiis, pariatur maxime. Ipsum, illum nisi.</p>
+        
+        </article>
         <hr>
 
         
