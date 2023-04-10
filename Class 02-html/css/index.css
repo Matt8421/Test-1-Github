@@ -3,6 +3,18 @@
     propiedad , valor 
 }
      */
+     /* Traemos el Font desde Google fonts */
+
+     
+        @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Noto+Sans+Miao&display=swap");
+
+        p{  color: blue;
+            font-family: 'Noto Sans Miao', sans-serif;
+
+        }
+
+        
+     
     h2{/* Selector global */
     color: red;
     font: size 45px;
